@@ -1,0 +1,31 @@
+{
+  "editor.formatOnSave": true,
+  "tslint.autoFixOnSave": true,
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  "todohighlight.keywords": ["DEBUG:", "REVIEW:", "WARN:", "FEATURE:", "DEPRECATED:", "DISCUSS:"],
+  "plantuml.diagramsRoot": "docs/source/diagrams",
+  "plantuml.exportOutDir": "docs/source/diagrams-imgs",
+  "plantuml.includepaths": [
+    "docs/source/diagrams",
+    "docs/source/diagrams-imgs"
+  ],
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.fontSize": 16,
+  "editor.fontFamily": "D2Coding, Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "D2Coding",
+  "terminal.integrated.fontSize": 14,
+  "workbench.editor.enablePreview": false,
+  "eslint.validate": [
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  }
+}
